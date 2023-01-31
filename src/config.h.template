@@ -1,0 +1,18 @@
+// MQTT VARS
+#define mqtt_server ""  // mqtt IP address
+#define mqtt_user ""           // mqtt user name
+#define mqtt_password "" // mqtt password
+#define DEVICE_ID "ESP32"        // give a unique name to your device
+
+// WiFi VARS
+const char *ssid = "";  //  your wifi SSID
+const char *pass = ""; //  your wifi password
+
+// Telnet Configuration from APRS server
+const String USER = "CD3VVO-15";                // write your aprs callsign
+const String PAS = "";                     // write your aprs password
+const String LAT = "3327.10S";                  // write your latitude
+const String LON = "07037.17W";                 // write your longitute
+const String COMMENT = "APRS on ESP32"; // write some comment
+const String SERVER = "brazil.aprs2.net";       // write the address of the aprs server
+const int APRSPORT = 14579;                     // write the aprs server APRSPORT
